@@ -1,0 +1,19 @@
+header  {
+    background-color: darkgoldenrod;
+    text-align: center; color: black;
+    clear: both;
+}
+
+footer  {
+    background-color: darkgoldenrod;
+    text-align: center; color: black;
+    clear: both;
+}
+
+nav {
+    float: left; padding-left: 5px; padding-right: 35px; padding-bottom: 50px;
+}
+
+ul  {
+    list-style-type: none;
+}
