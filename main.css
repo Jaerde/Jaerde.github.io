@@ -1,19 +1,32 @@
+body    {
+    background-color: rgb(215,181,144);
+}
+
 header  {
     background-color: darkgoldenrod;
     text-align: center; color: black;
-    clear: both;
 }
 
 footer  {
+    position: fixed; left: 0; bottom: 0; width: 100%;
     background-color: darkgoldenrod;
     text-align: center; color: black;
     clear: both;
 }
 
 nav {
-    float: left; padding-left: 5px; padding-right: 35px; padding-bottom: 50px;
+    float: left; padding-left: 5px; padding-right: 35px; padding-bottom: 40%;
+}
+
+ul.linkit   {
+    list-style-type: none; text-decoration: none;
 }
 
 ul  {
-    list-style-type: none;
+    list-style-type: square;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
